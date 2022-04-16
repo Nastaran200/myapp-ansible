@@ -18,6 +18,5 @@
     - name: Restart Apache server
       service:
         name: httpd
-        state: restarted   
-        enabled: True
+        state: restarted 
 ...
